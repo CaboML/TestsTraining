@@ -2,7 +2,7 @@ context("test-square.R")
 
 test_that("Output as expected", {
   # Output class as expected
-expect_equal(1==1, FALSE)
+expect_equal(1==1, TRUE)
   # Output for min range input as expected
 
   # Output for mid range input as expected
