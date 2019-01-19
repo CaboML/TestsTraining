@@ -37,7 +37,6 @@ test_that("Works under different cashed files status", {
 
 
     # Clean file
-	unlink(x = ShowCachePath(), recursive = T, force = T)
 })
 
 test_that("Testing function under different Wi-Fi conditions", {
