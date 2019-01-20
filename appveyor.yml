@@ -44,5 +44,12 @@ artifacts:
   - path: '\*_*.zip'
     name: Bits
 
-only_commits:
-  message: /build/
+for:
+-   branches:
+      except:
+        - master
+        - dev_training
+
+
+    only_commits:
+      message: /build/
