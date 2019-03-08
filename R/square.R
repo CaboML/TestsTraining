@@ -4,6 +4,3 @@ square <- function(x){
 }
 
 
-
-
-
